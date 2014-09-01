@@ -27,6 +27,7 @@ public class FormController {
 		}
 		
 		m.addAttribute("message", "Successfully saved person: " + subscriber.toString());
+		//this will return my new page
 		return "formPage";
 	}
 }
